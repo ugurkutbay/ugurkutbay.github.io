@@ -16,13 +16,11 @@
     height: 100%;
 }
 .photo {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px; 
     background-image: url('/images/cv_biometric_photo.jpg');
     background-size: cover;        
     background-position: center; 
     background-repeat: no-repeat;   
+    animation: photoChange 5s linear forwards;
 }
 
 .mi, .mid {
@@ -35,6 +33,7 @@
 }
 
 .midle {
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -86,5 +85,26 @@ h1, h2 {
     100% {
         background-color: #111827;
         opacity: 1; 
+    }
+}
+@keyframes photoChange {
+    0% {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid whitesmoke;
+    }
+    50% {
+        width: 300px;
+        height: 300px;
+        border-radius: 35%;
+        border: 3px solid whitesmoke;
+    }
+    100% {
+        border-radius: 10%;
+        margin-top: 50px;
+        width: 350px;
+        height: 350px;
+        border: 1px solid #2e519d;
     }
 }
