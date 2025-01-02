@@ -52,40 +52,10 @@ h1, h2 {
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
-    background-color: #1a2337;
-    width: 50%;
-    height: 50px;
-    opacity: 1;
-}
-.l44p { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left:  0px;
-    background-color: #111827;
-    width: 35%;
-    height: 100%;
-    animation: backgroundChange 5s infinite alternate;
-    opacity: 0.8;
 }
 .l44p h5 {
     color: green;
     background-color: transparent;
-}
-
-@keyframes backgroundChange {
-    0% {
-        background-color: #111827;
-        opacity: 1; 
-    }
-    50% {
-        background-color: white;
-        opacity: 0.5; 
-    }
-    100% {
-        background-color: #111827;
-        opacity: 1; 
-    }
 }
 @keyframes photoChange {
     0% {
