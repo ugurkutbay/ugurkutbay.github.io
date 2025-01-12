@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.banner {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 600px; 
+}
+
+.ahbeabi {
+  animation-name: beabi;
+  animation-direction: alternate; }
+
+/*# sourceMappingURL=style.css.map */
